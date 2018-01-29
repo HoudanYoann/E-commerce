@@ -36,6 +36,6 @@ Projet Autonome d'un site E-commerce
 ## Cas d'utilisation - Rôle: SuperAdministrateur
 
 - [ ] Définit les permissions des utilisateurs et modérateurs
-- [ ] Vérouiller des articles
+- [ ] Verrouiller des articles
 - [ ] Ajout de nouveaux objets
 - [ ] Désactive le site E-commerce
