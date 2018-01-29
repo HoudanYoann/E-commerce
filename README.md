@@ -27,6 +27,7 @@ Projet Autonome d'un site E-commerce
 - [ ] Gérer le compte utilisateur (modification coordonnées, mot de passe, avatar, pseudo)
 - [ ] Écrire des commentaires
 - [ ] Consulter son panier
+- [ ] Choisir la quantité des objets
 
 ## Cas d'utilisation - Rôle: Modérateur
 
