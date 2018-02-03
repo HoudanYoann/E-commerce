@@ -1,0 +1,78 @@
+body {
+
+}
+
+/* Header */
+.navbar
+{
+    border-radius : 0px;
+    margin-bottom: 0px;
+}
+
+/* Container du Caroussel */
+.container
+{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.category
+{
+    /* Dimensions et Positionnements */
+    margin : 20px 20px 20px 50px;
+    padding: 14px 18px;
+
+    /* Décoration */
+    border-color: #080808;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* Categories */
+.col-sm-2
+{
+    border-color: #ddd;
+}
+
+/* Articles */
+
+.col-sm-9
+{
+    margin-top: 20px;
+}
+
+/* Dimensions/ Positionnements / Affichage du Login */
+
+/* .form-signin-heading = Identifiez-vous*/
+.form-signin-heading
+{
+    margin-left: 20px;
+}
+
+
+/* .form-control = les champs email et mdp */
+.form-control
+{
+    width: 30%;
+    position: center;
+    margin: 0 auto 20px auto;
+}
+
+/* Bouton "Connexion */
+.btn-primary
+{
+    max-width: 180px;
+    padding: 5px 15px 5px;
+    margin: 10px auto;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+footer
+{
+    background-color: #222222;
+}
+footer p {
+    color: white;
+}
+
