@@ -3,7 +3,7 @@ Projet Autonome d'un site E-commerce
 
 ## Cahier des charges 
 
-- [ ] Inscription des utilisateurs et leur authentification
+- [ ] Inscription des utilisateurs et leur authentification 80%
 - [ ] Permettre aux utilisateurs authentifiés de communiquer
 - [ ] Gestion du profil (avatar, nom, prénom)
 - [ ] Ajouter et supprimer des objets dans son panier
