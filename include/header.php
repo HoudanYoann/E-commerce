@@ -14,9 +14,9 @@
 
                 <?php
                 if (!isset($_SESSION['login']))
-                    echo ("<li><a href=\"http://localhost/E-commerce/include/formInscription.php\"><span class=\"glyphicons glyphicons-group\"></span> Inscription</a></li>");
+                    echo ("<li><a href=\"http://localhost/E-commerce/include/formInscription.php\"> Inscription</a></li>");
                 else
-                    echo ("                <li><a href=\"http://localhost/E-commerce/include/formInscription.php\"><span class=\"glyphicon glyphicon-user\"></span> Mon compte</a></li>");
+                    echo ("<li><a href=\"http://localhost/E-commerce/include/account.php\"><span class=\"glyphicon glyphicon-user\"></span> Mon compte</a></li>");
                 ?>
 
                 <?php
