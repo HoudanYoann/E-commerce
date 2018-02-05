@@ -1,6 +1,6 @@
 <h1>Inscription</h1>
 <?php
-if(isset($_POST["categorysend"])) {
+if(isset($_POST["objectsend"])) {
 
     // Vérification dans un tableau avec print_r très important pour nos vérifications
 
@@ -10,10 +10,17 @@ if(isset($_POST["categorysend"])) {
     $tabErreur = array();
 
     $title = $_POST['title'];
-
+    $description = $_POST['description'];
+    $prix = $_POST['price'];
 
     if($_POST["title"] == "")
-        array_push($tabErreur, "Veuillez saisir un Titre");
+        array_push($tabErreur, "Veuillez saisir votre titre");
+
+    if($_POST["description"] == "")
+        array_push($tabErreur, "Veuillez saisir une description");
+
+    if($_POST["price"] == "")
+        array_push($tabErreur, "Veuillez saisir un prix");
 
     if(count($tabErreur) != 0) {
         $message = "<ul>";
@@ -25,7 +32,7 @@ if(isset($_POST["categorysend"])) {
         $message .= "</ul>";
         echo($message);
 
-        include("./formCategory.php");
+        include("./formObjet.php");
     }
 
     else {
@@ -36,10 +43,10 @@ if(isset($_POST["categorysend"])) {
         }
 
         else {
-            $requete = "INSERT INTO t_categories (ID_CATEGORIE, TITLE_CATEGORIE)
-                        VALUES (NULL, '$title');";
+            $requete = "INSERT INTO t_articles (ID_ARTICLE, ART_TITLE, ART_CONTENU,PRICE)
+                        VALUES (NULL, '$title', '$description', '$prix');";
 
-            echo "Votre catégorie a été ajoutée !";
+            echo "Votre article a été ajouté !";
 
             mysqli_query($connexion, $requete);
             mysqli_close($connexion);
@@ -50,5 +57,5 @@ if(isset($_POST["categorysend"])) {
 
 else {
     echo("Je viens d'ailleurs");
-    include("./formCategory.php");
+    include("./formInscription.php");
 }

@@ -28,7 +28,7 @@ echo "</pre>";
 
     <main>
 
-        <?php include_once("./include/category.php");?>
+        <?php include_once("./include/liste.php");?>
 
     </main>
     <?php include_once("./include/footer.php");?>

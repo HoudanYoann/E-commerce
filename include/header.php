@@ -22,10 +22,19 @@
                 <?php
 
                 if (!isset($_SESSION['login']))
+                    echo ("");
+                else
+                    echo ("<li><a href=\"http://localhost/E-commerce/include/account.php\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Panier</a></li>");
+                ?>
+
+                <?php
+
+                if (!isset($_SESSION['login']))
                     echo ("<li><a href=\"http://localhost/E-commerce/include/formLogin.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Connexion</a></li>");
                 else
                     echo ("<li><a href=\"http://localhost/E-commerce/include/logout.php\"><span class=\"glyphicon glyphicon-log-out\"></span> Déconnexion</a></li>");
                 ?>
+
 
 
             </ul>

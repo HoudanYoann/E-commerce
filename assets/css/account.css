@@ -1,0 +1,23 @@
+.option
+{
+    /* Positionnement et dimension*/
+    height: 200px;
+}
+.panel-option
+{
+    /* Dimensions et Positionnements */
+    text-align: center;
+    margin: 50px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
+    /* Décorations */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+.panel-option a
+{
+    /* Décorations */
+    text-decoration: none;
+    color: black;
+}
