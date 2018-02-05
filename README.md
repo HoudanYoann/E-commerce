@@ -38,4 +38,5 @@ Projet Autonome d'un site E-commerce
 - [ ] Définit les permissions des utilisateurs et modérateurs
 - [ ] Verrouiller des articles
 - [ ] Ajout de nouveaux objets
+- [x] Ajout de nouvelles catégories
 - [ ] Désactive le site E-commerce
