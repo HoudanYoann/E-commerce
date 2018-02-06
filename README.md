@@ -3,9 +3,8 @@ Projet Autonome d'un site E-commerce
 
 ## Cahier des charges 
 
-- [ ] Inscription des utilisateurs et leur authentification
-- [ ] Permettre aux utilisateurs authentifiés de communiquer
-- [ ] Gestion du profil (avatar, nom, prénom)
+- [ ] Inscription des utilisateurs et leur authentification | 80%
+- [ ] Gestion du profil (avatar, nom, prénom) | 40%
 - [ ] Ajouter et supprimer des objets dans son panier
 - [ ] Ajouter un commentaire à un objet
 - [ ] Filtrer les catégories
@@ -13,20 +12,20 @@ Projet Autonome d'un site E-commerce
 ## Consultation du site
 
 - [ ] Afficher les objets
-- [ ] Naviguer selon les catégories
+- [ ] Naviguer selon les catégories | 40%
 - [ ] Filtrer les catégories
 - [ ] Voir les commentaires
-- [ ] S'inscrire
+- [x] S'inscrire
 - [ ] Se désinscrire
 - [ ] Contacter le support
 
 ## Cas d'utilisation - Rôle: Utilisateur
 
 - [ ] Reprend les fonctionnalités de consultation du site
-- [ ] S'authentifier
-- [ ] Gérer le compte utilisateur (modification coordonnées, mot de passe, avatar, pseudo)
+- [ ] S'authentifier | 80%
+- [ ] Gérer le compte utilisateur (modification coordonnées, mot de passe, avatar, pseudo) | 50%
 - [ ] Écrire des commentaires
-- [ ] Consulter son panier
+- [ ] Consulter son panier | 60%
 
 ## Cas d'utilisation - Rôle: Modérateur
 
@@ -38,4 +37,5 @@ Projet Autonome d'un site E-commerce
 - [ ] Définit les permissions des utilisateurs et modérateurs
 - [ ] Verrouiller des articles
 - [ ] Ajout de nouveaux objets
+- [x] Ajout de nouvelles catégories
 - [ ] Désactive le site E-commerce
