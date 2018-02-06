@@ -1,8 +1,8 @@
 <?php
 session_start();
-echo "<pre>";
-    if (isset($_SESSION['login']))    print_r($_SESSION['login']);
-echo "</pre>";
+//echo "<pre>";
+    //if (isset($_SESSION['login']))    print_r($_SESSION['login']);
+//echo "</pre>";
 ?>
 <!DOCTYPE html>
 <html lang="FR">

@@ -30,6 +30,34 @@ session_start();
                             <form class="form-signin">
                                 <h2 class="form-signin-heading">Ajouter un nouvel Objet :</h2>
                                 <input type="text" class="form-control" name="title" placeholder="Titre" required=""/>
+                                <div class="container">
+                                    <form>
+                                        <div class="form-group">
+                                            <select class="form-control" id="sel1">
+
+                                                <?php
+                                                $connexion = mysqli_connect("localhost", "root", "", "ecommerce");
+
+                                                if (!$connexion) {
+                                                    die("Erreur MySQL " . mysqli_connect_errno() . " : " . mysqli_connect_error());
+                                                }
+                                                else
+                                                {
+
+                                                $reponse = "SELECT * FROM t_categories";
+                                                $result = mysqli_query($connexion, $reponse);
+                                                ?>
+
+
+                                                    <?php
+                                                    while ($donnees = mysqli_fetch_array($result)) {
+
+                                                        // On met [1] dans $donnees car c'est le second choix dans notre tableau et comme on commence à partir de 0
+                                                        echo " <option>" . $donnees[1] . "</option>";
+                                                    }
+                                                    }
+                                                    ?>
+
                                 <textarea class="description form-control" name="description" placeholder="Description de l'objet" required=""></textarea>
                                 <input type="text" class="form-control" name="price" placeholder="Prix" required=""/>
                                 <button class="btn btn-lg btn-primary btn-block" type="submit" name="objectsend">Envoyez</button>

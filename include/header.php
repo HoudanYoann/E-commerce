@@ -24,7 +24,10 @@
                 if (!isset($_SESSION['login']))
                     echo ("");
                 else
-                    echo ("<li><a href=\"http://localhost/E-commerce/include/account.php\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Panier</a></li>");
+                    echo ("<li><a href=\"http://localhost/E-commerce/include/formPanier.php\">
+                    <span class=\"glyphicon glyphicon-shopping-cart\"></span> 
+                    Panier 
+                    <span class=\"badge\">0</span></a></li>");
                 ?>
 
                 <?php
