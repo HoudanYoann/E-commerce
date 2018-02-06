@@ -16,17 +16,17 @@ Projet Autonome d'un site E-commerce
 - [ ] Naviguer selon les catégories
 - [ ] Filtrer les catégories
 - [ ] Voir les commentaires
-- [ ] S'inscrire
+- [x] S'inscrire
 - [ ] Se désinscrire
 - [ ] Contacter le support
 
 ## Cas d'utilisation - Rôle: Utilisateur
 
 - [ ] Reprend les fonctionnalités de consultation du site
-- [ ] S'authentifier
+- [ ] S'authentifier | 80%
 - [ ] Gérer le compte utilisateur (modification coordonnées, mot de passe, avatar, pseudo)
 - [ ] Écrire des commentaires
-- [ ] Consulter son panier
+- [x] Consulter son panier
 - [ ] Choisir la quantité des objets
 
 ## Cas d'utilisation - Rôle: Modérateur
